@@ -16,4 +16,6 @@ class PhotoProvider {
         "https://loveincorporated.blob.core.windows.net/contentimages/gallery/95e0431c-b232-4481-a5ac-f6d09fd31c57-Manali-structuresxx.jpg",
         "https://cdn.gobankingrates.com/wp-content/uploads/2019/01/Maldives-beach-resort-panoramic-landscape-shutterstock_1051887026-848x477.jpg"
     )
+
+    fun randomImage( ) : String? = photos.shuffled( )[0]
 }
